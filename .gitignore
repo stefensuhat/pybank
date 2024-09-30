@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv
+venv/
+env/
+.env/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+tmp/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
