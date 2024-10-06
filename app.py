@@ -10,8 +10,8 @@ app = Flask(__name__)
 def hello_world():
     appiumClass = TestAppium()
 
-    appiumClass.setup()
-    run = appiumClass.test_find_about_phone()
+    appiumClass.setUp()
+    run = appiumClass.test_find_security_and_privacy()
     # Get the action from the request body
     # action = request.get_json()['action']
 
